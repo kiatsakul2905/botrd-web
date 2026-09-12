@@ -1,0 +1,8 @@
+{
+  "name": "botrd-web",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node tests/run.js" },
+  "dependencies": { "@neondatabase/serverless": "^1.0.0" }
+}

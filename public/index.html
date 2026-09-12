@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BOTRD – เตรียมไฟล์ RD Prep</title>
+<link rel="stylesheet" href="/style.css">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
+</head>
+<body>
+<header id="top" hidden>
+  <a href="#/" class="brand">BOTRD</a>
+  <nav><a href="#/">ชุดข้อมูล</a><a href="#/admin" id="navAdmin" hidden>จัดการผู้ใช้/บริษัท</a><a href="#/help">วิธีใช้</a></nav>
+  <span id="who"></span><button id="logout" class="ghost">ออกจากระบบ</button>
+</header>
+<main id="app"><p class="muted">กำลังโหลด…</p></main>
+<div id="toast" hidden></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>
